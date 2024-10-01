@@ -4,9 +4,9 @@ metadata:
   name: app-srv
 spec:
   selector:
-    app: app-pod
+    app: app-deployment
   type: NodePort
   ports:
     - port: 80
       targetPort: 8080
-      nodePort: 31113
+      nodePort: 31000
