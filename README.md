@@ -12,4 +12,5 @@
 
 ## App Lanchonete
 
-`kubectl apply -f app-deployment`
+`kubectl apply -f app-deployment.yaml`
+`kubectl apply -f app-deployment-hpa.yaml`
